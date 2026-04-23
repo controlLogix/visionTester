@@ -1,0 +1,16 @@
+pypylon>=3.0.1
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Required by the 3D Mapping tab (live Open3D viewer + fallback plotting).
+open3d>=0.18.0
+matplotlib>=3.7.0
+
+# Optional -- enables AI / ML object detection overlay (YOLOv8)
+# AND monocular depth estimation (MiDaS) for the 3D Mapping tab.
+# Pulls in PyTorch (~200 MB). Remove these two lines if you don't want AI.
+# (The 3D Mapping tab will fall back to a pseudo-depth if torch is missing.)
+ultralytics>=8.0.0
+# torch is installed automatically as a dependency of ultralytics
+

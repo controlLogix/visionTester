@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# YOLO / MiDaS model weights (auto-downloaded on first run)
+*.pt
+yolov8n.pt
+yolov8s.pt
+
+# Saved captures
+basler_*.png
+basler_*.jpg
+basler_*.tif
+dataman_*.csv
+keyence_*.csv
+*.ply
+*.pfs
+basler_cmdlog_*.txt
+
+# Editor / OS junk
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
